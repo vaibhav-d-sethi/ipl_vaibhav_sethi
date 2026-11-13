@@ -1,0 +1,369 @@
+{
+  "tables": {
+    "matches": {
+      "raw_rows": 1212,
+      "duplicates_removed": 0,
+      "whitespace_trimmed": 0,
+      "null_markers_converted": {
+        "match_id": 0,
+        "date": 0,
+        "city": 51,
+        "venue": 0,
+        "team1": 0,
+        "team2": 0,
+        "toss_winner": 0,
+        "toss_decision": 0,
+        "winner": 25,
+        "result_type": 0,
+        "player_of_match": 9,
+        "season": 0,
+        "event_name": 0,
+        "match_type": 0,
+        "gender": 0,
+        "overs": 0,
+        "balls_per_over": 0,
+        "team1_won": 0,
+        "toss_winner_won": 0
+      },
+      "conversion_failures": {
+        "match_id": {
+          "count": 0,
+          "examples": []
+        },
+        "overs": {
+          "count": 0,
+          "examples": []
+        },
+        "balls_per_over": {
+          "count": 0,
+          "examples": []
+        },
+        "team1_won": {
+          "count": 0,
+          "examples": []
+        },
+        "toss_winner_won": {
+          "count": 0,
+          "examples": []
+        },
+        "date": {
+          "count": 0,
+          "examples": []
+        }
+      },
+      "invalid_values_set_missing": {
+        "overs": {
+          "count": 0,
+          "allowed": [
+            1,
+            50
+          ]
+        },
+        "balls_per_over": {
+          "count": 0,
+          "allowed": [
+            1,
+            12
+          ]
+        },
+        "team1_won": {
+          "count": 0,
+          "allowed": [
+            0,
+            1
+          ]
+        },
+        "toss_winner_won": {
+          "count": 0,
+          "allowed": [
+            0,
+            1
+          ]
+        }
+      },
+      "clean_rows": 1212,
+      "missing_after_cleaning": {
+        "city": 51,
+        "winner": 25,
+        "player_of_match": 9
+      }
+    },
+    "ball_by_ball": {
+      "raw_rows": 288226,
+      "duplicates_removed": 0,
+      "whitespace_trimmed": 0,
+      "null_markers_converted": {
+        "match_id": 0,
+        "date": 0,
+        "season": 0,
+        "venue": 0,
+        "city": 12397,
+        "innings": 0,
+        "batting_team": 0,
+        "bowling_team": 0,
+        "over": 0,
+        "ball_in_over": 0,
+        "ball_number": 0,
+        "batter": 0,
+        "bowler": 0,
+        "non_striker": 0,
+        "batter_runs": 0,
+        "extra_runs": 0,
+        "total_runs": 0,
+        "wides": 0,
+        "noballs": 0,
+        "byes": 0,
+        "legbyes": 0,
+        "penalty": 0,
+        "is_wicket": 0,
+        "wicket_player_out": 273886,
+        "wicket_kind": 273886,
+        "match_winner": 4980,
+        "toss_winner": 0,
+        "toss_decision": 0,
+        "team1": 0,
+        "team2": 0,
+        "is_powerplay": 0,
+        "is_middle_overs": 0,
+        "is_death_overs": 0,
+        "batting_team_won": 0
+      },
+      "conversion_failures": {
+        "match_id": {
+          "count": 0,
+          "examples": []
+        },
+        "innings": {
+          "count": 0,
+          "examples": []
+        },
+        "over": {
+          "count": 0,
+          "examples": []
+        },
+        "ball_in_over": {
+          "count": 0,
+          "examples": []
+        },
+        "ball_number": {
+          "count": 0,
+          "examples": []
+        },
+        "batter_runs": {
+          "count": 0,
+          "examples": []
+        },
+        "extra_runs": {
+          "count": 0,
+          "examples": []
+        },
+        "total_runs": {
+          "count": 0,
+          "examples": []
+        },
+        "wides": {
+          "count": 0,
+          "examples": []
+        },
+        "noballs": {
+          "count": 0,
+          "examples": []
+        },
+        "byes": {
+          "count": 0,
+          "examples": []
+        },
+        "legbyes": {
+          "count": 0,
+          "examples": []
+        },
+        "penalty": {
+          "count": 0,
+          "examples": []
+        },
+        "is_wicket": {
+          "count": 0,
+          "examples": []
+        },
+        "batting_team_won": {
+          "count": 0,
+          "examples": []
+        },
+        "is_powerplay": {
+          "count": 0,
+          "examples": []
+        },
+        "is_middle_overs": {
+          "count": 0,
+          "examples": []
+        },
+        "is_death_overs": {
+          "count": 0,
+          "examples": []
+        },
+        "date": {
+          "count": 0,
+          "examples": []
+        }
+      },
+      "invalid_values_set_missing": {
+        "innings": {
+          "count": 0,
+          "allowed": [
+            1,
+            6
+          ]
+        },
+        "over": {
+          "count": 0,
+          "allowed": [
+            0,
+            19
+          ]
+        },
+        "ball_in_over": {
+          "count": 0,
+          "allowed": [
+            1,
+            12
+          ]
+        },
+        "ball_number": {
+          "count": 0,
+          "allowed": [
+            1,
+            200
+          ]
+        },
+        "batter_runs": {
+          "count": 0,
+          "allowed": [
+            0,
+            6
+          ]
+        },
+        "extra_runs": {
+          "count": 0,
+          "allowed": [
+            0,
+            7
+          ]
+        },
+        "total_runs": {
+          "count": 0,
+          "allowed": [
+            0,
+            7
+          ]
+        },
+        "wides": {
+          "count": 0,
+          "allowed": [
+            0,
+            7
+          ]
+        },
+        "noballs": {
+          "count": 0,
+          "allowed": [
+            0,
+            7
+          ]
+        },
+        "byes": {
+          "count": 0,
+          "allowed": [
+            0,
+            6
+          ]
+        },
+        "legbyes": {
+          "count": 0,
+          "allowed": [
+            0,
+            6
+          ]
+        },
+        "penalty": {
+          "count": 0,
+          "allowed": [
+            0,
+            5
+          ]
+        },
+        "is_wicket": {
+          "count": 0,
+          "allowed": [
+            0,
+            1
+          ]
+        },
+        "batting_team_won": {
+          "count": 0,
+          "allowed": [
+            0,
+            1
+          ]
+        },
+        "is_powerplay": {
+          "count": 0,
+          "allowed": [
+            0,
+            1
+          ]
+        },
+        "is_middle_overs": {
+          "count": 0,
+          "allowed": [
+            0,
+            1
+          ]
+        },
+        "is_death_overs": {
+          "count": 0,
+          "allowed": [
+            0,
+            1
+          ]
+        }
+      },
+      "clean_rows": 288226,
+      "missing_after_cleaning": {
+        "city": 12397,
+        "wicket_player_out": 273886,
+        "wicket_kind": 273886,
+        "match_winner": 4980
+      }
+    }
+  },
+  "team_name_changes": {
+    "matches": {
+      "team1": 319,
+      "team2": 286,
+      "toss_winner": 285,
+      "winner": 271
+    },
+    "ball_by_ball": {
+      "batting_team": 71217,
+      "bowling_team": 71181,
+      "team1": 74927,
+      "team2": 67471,
+      "toss_winner": 67078,
+      "match_winner": 63777
+    }
+  },
+  "unmatched_ids": {
+    "in_balls_not_matches": 0,
+    "in_matches_not_balls": 0
+  },
+  "super_over_deliveries": 175,
+  "outliers": {
+    "metric": "innings_total_runs",
+    "q1": 140.0,
+    "q3": 183.0,
+    "lower_bound": 75.5,
+    "upper_bound": 247.5,
+    "flagged_rows": 48,
+    "innings_checked": 2418
+  }
+}
